@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 
 import "aos/dist/aos.css";
 import "./assets/styles/main.scss";
+import Footer from "./components/footer";
 
 const App = () => {
   useEffect(() => {
@@ -36,6 +37,7 @@ const App = () => {
         <About />
         <Contact />
       </main>
+      <Footer />
     </Fragment>
   );
 };
