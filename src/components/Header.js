@@ -1,5 +1,6 @@
 import React from "react";
 
+import logo from '../assets/img/covid3.jpeg';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -24,8 +25,21 @@ const Header = () => {
             href="#home"
             onClick={scrollTo("home")}
             aria-label="Logo"
-          >
-            LOGO
+          ><img
+          alt=""
+          src={logo}
+          style={{
+            height: 70 + 'px',
+            width: 70 + 'px',
+            marginRight: 10 + "px",
+            boxShadow: '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)',
+            borderRadius: 50+"%",
+            overflow: 'hidden',
+            objectFit: 'cover'
+  
+          }}
+          className="d-inline-block align-top"
+          />  
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span />
@@ -68,7 +82,7 @@ const Header = () => {
                 offset={0}
                 duration={400}
               >
-                Contact
+                Download
               </Link>
             </Nav>
           </Navbar.Collapse>

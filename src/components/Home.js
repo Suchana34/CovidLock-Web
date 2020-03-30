@@ -2,7 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 
-import bgImg from "../assets/img/bg-home.jpg";
+import bgImg from "../assets/img/covid1.jpeg";
 
 const Section = styled.section`
   position: relative;
@@ -50,7 +50,7 @@ const Section = styled.section`
 `;
 
 const BgOverlay = styled.div`
-  background: linear-gradient(33deg, #8400ff, #413bff);
+  background: linear-gradient(62deg, #f44336, #413bff);
   opacity: 0.9;
   position: absolute;
   height: 100%;
@@ -61,7 +61,7 @@ const BgOverlay = styled.div`
   top: 0;
 
   @media (min-width: 992px) {
-    background-image: linear-gradient(62deg, #8400ff, #413bff);
+    background-image: linear-gradient(62deg, #f44336, #413bff);
   }
 `;
 
@@ -71,7 +71,7 @@ const HomeTitle = styled.h1`
   color: #fff;
   font-size: 22px;
   line-height: 1.55;
-  margin-bottom: 23px;
+  margin-bottom: 50px;
 
   @media (min-width: 992px) {
     font-size: 38px;
@@ -83,8 +83,8 @@ const HomeTitle = styled.h1`
   }
 `;
 
-const SubTitle = styled.h5`
-  font-size: 14px;
+const SubTitle = styled.h3`
+  font-size: 24px;
   font-weight: normal;
   line-height: 1.83;
   text-align: center;
@@ -104,16 +104,14 @@ const Home = () => {
       <BgOverlay />
       <div className="container">
         <HomeTitle data-aos="zoom-in">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout.
+        COVIDLOCK By Ranaghat Police Department(Ranaghat PD)
         </HomeTitle>
         <SubTitle
           data-aos="fade-up"
           data-aos-easing="ease"
           data-aos-delay="400"
         >
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
+        Please avoid going outside your residence during lockdown
         </SubTitle>
       </div>
     </Section>

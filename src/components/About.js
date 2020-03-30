@@ -86,20 +86,18 @@ const About = () => {
   return (
     <Section id="about">
       <div className="container">
-        <SectionTitle>Lorem ipsum dolor sit amet</SectionTitle>
-        <SubTitle>Lorem ipsum dolor sit amet</SubTitle>
+        <SectionTitle>Do not try to put your loved ones life at risk</SectionTitle>
+        <SubTitle>Try to maintain the following points</SubTitle>
         <div className="row">
           <div className="col-lg-4">
             <Box data-aos={width >= 1400 ? "fade-right" : "fade-up"}>
               <IconWrap>
                 <Demo />
               </IconWrap>
-              <BoxTitle>Declarative</BoxTitle>
+              <BoxTitle>Wash your hands frequetly</BoxTitle>
               <Text>
-                React makes it painless to create interactive UIs. Design simple
-                views for each state in your application, and React will
-                efficiently update and render just the right components when
-                your data changes.
+              Why hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the viruses
+              to mouth,eyes and nose. From there, the virus can enter your body and can make u sick.
               </Text>
             </Box>
           </div>
@@ -108,11 +106,10 @@ const About = () => {
               <IconWrap>
                 <Demo />
               </IconWrap>
-              <BoxTitle>Component-Based</BoxTitle>
+              <BoxTitle>If you have fever,cough seek medical care immediately</BoxTitle>
               <Text>
-                Since component logic is written in JavaScript instead of
-                templates, you can easily pass rich data through your app and
-                keep state out of the DOM.
+                  Stay home if unwell. If you have fever,cough seek medical attention and call in advance. This allow your healthcare
+                  to quickly direct you to the right health facility.
               </Text>
             </Box>
           </div>
@@ -121,11 +118,10 @@ const About = () => {
               <IconWrap>
                 <Demo />
               </IconWrap>
-              <BoxTitle>Learn Once, Write Anywhere</BoxTitle>
+              <BoxTitle>Practice Respiratory Hygiene</BoxTitle>
               <Text>
-                We don’t make assumptions about the rest of your technology
-                stack, so you can develop new features in React without
-                rewriting existing code.
+              Make sure you and the people around you follow good respiratory hygiene. This means covering your mouth and nose with your
+              bent elbow or tissue when you cough or sneeze.
               </Text>
             </Box>
           </div>
