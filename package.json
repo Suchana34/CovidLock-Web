@@ -1,19 +1,19 @@
 {
-  "name": "react-landing-page",
+  "name": "covid-lock",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "aos": "^2.3.4",
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-app-polyfill": "^1.0.0",
-    "react-bootstrap": "^1.0.0-beta.8",
-    "react-dom": "^16.8.6",
+    "aos": "2.3.4",
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "node-sass": "4.12.0",
+    "react": "16.8.6",
+    "react-app-polyfill": "1.0.0",
+    "react-bootstrap": "1.0.0-beta.8",
+    "react-dom": "16.8.6",
     "react-scripts": "3.0.0",
-    "react-scroll": "^1.7.11",
-    "styled-components": "^4.2.0"
+    "react-scroll": "1.7.11",
+    "styled-components": "4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
